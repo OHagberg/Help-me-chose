@@ -1,0 +1,40 @@
+button {
+background-color: pink;
+}
+Body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 150px
+}
+
+h1{
+  font-weight: lighter;
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+}
+
+.inputSection {
+  margin: 60px 10px 80px 10px;
+  width: 400px
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 10px;
+}
+
+.addOption {
+  margin-top: 10px;
+}
+
+.beKind {
+  margin-top: inherit;
+}
